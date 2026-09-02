@@ -29,17 +29,17 @@ const FilterPanel = ({
   };
 
   const priceOptions = [
-    { value: '1', label: '💰 Budget-Friendly ($)' },
-    { value: '2', label: '💰💰 Moderate ($$)' },
-    { value: '3', label: '💰💰💰 Upscale ($$$)' },
-    { value: '4', label: '💰💰💰💰 Fine Dining ($$$$)' },
+    { value: '1', label: '$' },
+    { value: '2', label: '$$' },
+    { value: '3', label: '$$$' },
+    { value: '4', label: '$$$$' },
   ];
 
   const sortOptions = [
-    { value: 'best_match', label: '⭐ Best Match' },
-    { value: 'rating', label: '⭐ Highest Rating' },
-    { value: 'review_count', label: '💬 Most Reviews' },
-    { value: 'distance', label: '📍 Closest' },
+    { value: 'best_match', label: 'Best Match' },
+    { value: 'rating', label: 'Highest Rating' },
+    { value: 'review_count', label: 'Most Reviews' },
+    { value: 'distance', label: 'Closest' },
   ];
 
   const cuisineOptions = [
@@ -139,7 +139,7 @@ const FilterPanel = ({
           onClick={onRandomPick}
           disabled={isLoading || totalResults === 0}
         >
-          🎲 Pick for Me!
+          Pick for Me!
         </button>
       </div>
     </div>
