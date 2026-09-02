@@ -36,7 +36,7 @@ const SearchBar = ({ location, setLocation, term, setTerm, onSearch, isLoading }
       <form onSubmit={handleSubmit} className="search-form">
         <div className="search-inputs">
           <div className="input-group">
-            <label htmlFor="location">📍 Location</label>
+            <label htmlFor="location">Location</label>
             <input
               id="location"
               type="text"
@@ -48,7 +48,7 @@ const SearchBar = ({ location, setLocation, term, setTerm, onSearch, isLoading }
           </div>
 
           <div className="input-group">
-            <label htmlFor="term">🍽️ What are you craving?</label>
+            <label htmlFor="term">What are you craving?</label>
             <input
               id="term"
               type="text"
@@ -71,7 +71,7 @@ const SearchBar = ({ location, setLocation, term, setTerm, onSearch, isLoading }
                 <span className="spinner-inline"></span> Searching...
               </>
             ) : (
-              '🔍 Search'
+              'Search'
             )}
           </button>
 
@@ -81,7 +81,7 @@ const SearchBar = ({ location, setLocation, term, setTerm, onSearch, isLoading }
             onClick={handleUseCurrentLocation}
             disabled={isLoading}
           >
-            📍 My Location
+            My Location
           </button>
         </div>
       </form>
