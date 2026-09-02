@@ -52,7 +52,7 @@ const RandomPicker = ({ restaurant, onClose, onPick }) => {
           ) : (
             <div className="picker-image placeholder">No Image</div>
           )}
-          <div className="picker-badge">🎲 Lucky Pick!</div>
+          <div className="picker-badge">Lucky Pick!</div>
         </div>
 
         {/* Content */}
